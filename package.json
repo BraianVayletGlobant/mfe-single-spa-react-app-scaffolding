@@ -2,6 +2,7 @@
   "name": "@santander/mfe-app",
   "scripts": {
     "start": "webpack serve",
+    "start:env": "react-env && webpack serve",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
@@ -74,6 +75,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@beam-australia/react-env": "3.0.4",
     "@types/jest": "^29.5.2",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",

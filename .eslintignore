@@ -20,6 +20,8 @@ jsdoc.config.json
 .babel.config.js
 jest.config.js
 
+webpack.config.js
+
 .husky/
 coverage/
 dist/
