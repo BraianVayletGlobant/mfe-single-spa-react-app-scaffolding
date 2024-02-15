@@ -75,4 +75,4 @@ dist
 public/__ENV.js
 
 #jsdoc
-doc/
+doc

@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn doc
-yarn build
+# yarn doc
+# yarn build
 # rm -r out
