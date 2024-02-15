@@ -1,10 +1,9 @@
 {
   "name": "@santander/mfe-app",
   "scripts": {
-    "start": "webpack serve",
-    "start:env": "react-env && webpack serve",
+    "start": "react-env && webpack serve",    
     "start:standalone": "webpack serve --env standalone",
-    "build": "concurrently yarn:build:*",
+    "build": "react-env && concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
     "lint:ts": "eslint src --ext js,ts,tsx",
@@ -14,8 +13,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "test": "cross-env BABEL_ENV=test jest",
-    "watch-tests": "cross-env BABEL_ENV=test jest --watch",
-    "prepare": "husky install",
+    "watch-tests": "cross-env BABEL_ENV=test jest --watch",    
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
     "build:types": "tsc",
     "doc": "jsdoc -c jsdoc.json",

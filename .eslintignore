@@ -27,3 +27,4 @@ coverage/
 dist/
 doc/
 node_modules/
+public/
