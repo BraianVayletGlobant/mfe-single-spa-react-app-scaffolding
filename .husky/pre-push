@@ -3,4 +3,4 @@
 
 yarn doc
 yarn build
-rm -r out
+# rm -r out
