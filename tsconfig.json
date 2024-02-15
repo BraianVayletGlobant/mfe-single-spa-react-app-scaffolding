@@ -5,20 +5,20 @@
     "declarationDir": "dist",
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "outDir": "dist",    
+    "outDir": "dist",
     "baseUrl": "./src",
     "paths": {
-      "@assets/*": ["assets/*"],     
+      "@assets/*": ["assets/*"],
       "@components/*": ["components/*"],
       "@hooks/*": ["hooks/*"],
       "@models/*": ["models/*"],
       "@modules/*": ["modules/*"],
       "@scss/*": ["scss/*"],
       "@store/*": ["store/*"],
-      "@utils/*": ["utils/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "files": ["src/santander-mfe-app.tsx"],
-  "include": ["src/**/*"],
-  "exclude": ["src/**/*.test*"]
+  "include": ["src/**/*"]
+  // "exclude": ["src/**/*.test*"]
 }

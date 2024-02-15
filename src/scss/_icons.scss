@@ -1,0 +1,43 @@
+// This file is used to define the icon variables and mixins used in the project.
+
+$icon: "demo-font";
+$basic-path: "../assets/fonts";
+
+@mixin icon-clases() {
+  .demo-icon-check::before {
+    content: "\e900";
+  }
+}
+
+@mixin icon($publicPath: $basicPath) {
+  @font-face {
+    font-display: block;
+    font-family: #{$icon};
+    font-style: normal;
+    font-weight: normal;
+    src: url("#{$publicPath}/icons/demo-font.eot?s3loyb");
+    src: url("#{$publicPath}/icons/demo-font.eot?s3loyb#iefix")
+        format("embedded-opentype"),
+      url("#{$publicPath}/icons/demo-font.ttf?s3loyb") format("truetype"),
+      url("#{$publicPath}/icons/demo-font.woff?s3loyb") format("woff"),
+      url("#{$publicPath}/icons/demo-font.svg?s3loyb#demo-font") format("svg");
+  }
+
+  [class^="demo-icon-"],
+  [class*="demo-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: $icon !important;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: never;
+    text-transform: none;
+  }
+
+  @include icon-clases;
+}

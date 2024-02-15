@@ -1,23 +1,22 @@
 {
-    "extends": [
-      "stylelint-config-standard",
-      "stylelint-config-sass-guidelines",
-      "stylelint-config-standard-scss",
-      "stylelint-config-recommended-scss"
-    ],
-    "formatter": "stylelint-checkstyle-formatter",
-    "rules": {
-      "max-nesting-depth": 3,
-      "at-rule-no-unknown": null,
-      "scss/at-rule-no-unknown": true,
-      "scss/selector-no-redundant-nesting-selector": true,
-      "order/properties-alphabetical-order": true,
-      "selector-class-pattern": "^[a-zA-Z0-9_-]*$",
-      "selector-pseudo-class-no-unknown": [
-        true,
-        { "ignorePseudoClasses": ["global"] }
-      ]
-    },
-    "plugins": ["stylelint-scss", "stylelint-order"]
-  }
-  
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-scss"
+  ],
+  "formatter": "stylelint-checkstyle-formatter",
+  "rules": {
+    "max-nesting-depth": 3,
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/selector-no-redundant-nesting-selector": true,
+    "order/properties-alphabetical-order": true,
+    "selector-class-pattern": "^[a-zA-Z0-9_-]*$",
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global"] }
+    ]
+  },
+  "plugins": ["stylelint-scss", "stylelint-order"]
+}

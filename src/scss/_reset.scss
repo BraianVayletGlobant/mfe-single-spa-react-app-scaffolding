@@ -1,16 +1,23 @@
+// This file is used to define the reset styles for the application.
+
 * {
-    box-sizing: border-box;
-    min-width: 0;
+  box-sizing: border-box;
+  min-width: 0;
 }
 
 body {
-    min-height: 100dvh;
+  min-height: 100dvh;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
 }
 
 p {
-    text-wrap: pretty;
+  text-wrap: pretty;
 }
