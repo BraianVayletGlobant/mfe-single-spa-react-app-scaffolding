@@ -4,7 +4,7 @@
     "dictionaries": ["jsdoc", "closure"]
   },
   "source": {
-    "include": ["src"],
+    "include": ["src/"],
     "includePattern": "\\.(jsx|js|ts|tsx|json)$",
     "excludePattern": "(node_modules|docs)"
   },
@@ -16,13 +16,11 @@
   ],
   "templates": {
     "better-docs": {
-      "name": "React MFE App",
-      "logo": "https://avatars0.githubusercontent.com/u/28916798?s=200&v=4"
+      "name": "React MFE App"
     }
   },
   "opts": {
-    "destination": "./docs",
-    "recurse": true,
-    "readme": "README.md"
+    "destination": "./doc",
+    "recurse": true    
   }
 }

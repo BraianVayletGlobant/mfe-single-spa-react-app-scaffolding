@@ -1,3 +1,5 @@
+import Demo from "@components/atoms/Demo";
+
 const Root = ({ name }: { name: string }): JSX.Element => {
   return (
     <>
@@ -5,6 +7,7 @@ const Root = ({ name }: { name: string }): JSX.Element => {
       <section>
         {name} is mounted!
         {/* <p>{env["NAME"]}</p> */}
+        <Demo />
       </section>
     </>
   );

@@ -1,7 +1,7 @@
 {
   "name": "@santander/mfe-app",
   "scripts": {
-    "start": "react-env && webpack serve",
+    "start": "react-env  && webpack serve",
     "start:standalone": "webpack serve --env standalone",
     "build": "react-env && concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
@@ -20,7 +20,7 @@
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
     "build:types": "tsc",
-    "doc": "jsdoc -c jsdoc.json",
+    "doc": "jsdoc -c jsdoc.config.json",
     "husky:prepare": "husky install"
   },
   "devDependencies": {

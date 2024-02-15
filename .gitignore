@@ -73,3 +73,6 @@ dist
 
 #public Path
 public/__ENV.js
+
+#jsdoc
+doc/
