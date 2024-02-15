@@ -1,0 +1,24 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "outDir": "dist",    
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["assets/*"],     
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@models/*": ["models/*"],
+      "@modules/*": ["modules/*"],
+      "@scss/*": ["scss/*"],
+      "@store/*": ["store/*"],
+      "@utils/*": ["utils/*"],
+    }
+  },
+  "files": ["src/santander-mfe-app.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}

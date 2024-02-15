@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "source": {
+    "include": ["src"],
+    "includePattern": "\\.(jsx|js|ts|tsx|json)$",
+    "excludePattern": "(node_modules|docs)"
+  },
+  "plugins": [
+    "plugins/markdown",
+    "better-docs/component",
+    "better-docs/typescript",    
+    "better-docs"
+  ],
+  "templates": {
+    "better-docs": {
+      "name": "React MFE App",
+      "logo": "https://avatars0.githubusercontent.com/u/28916798?s=200&v=4"
+    }
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "readme": "README.md"
+  }
+}
