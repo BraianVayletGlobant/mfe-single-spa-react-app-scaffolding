@@ -1,7 +1,7 @@
 {
   "name": "@santander/mfe-app",
   "scripts": {
-    "start": "react-env  && webpack serve",
+    "start": "react-env && webpack serve",    
     "start:standalone": "webpack serve --env standalone",
     "build": "react-env && concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
@@ -94,6 +94,5 @@
   "types": "dist/santander-mfe-app.d.ts",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "bvaylet <bvaylet@nera-agro.com>",
   "license": "MIT"
 }
