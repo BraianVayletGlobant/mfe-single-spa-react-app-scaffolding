@@ -81,6 +81,7 @@
   },
   "dependencies": {
     "@beam-australia/react-env": "3.0.4",
+    "@tanstack/react-query": "^5.20.5",
     "@types/jest": "^29.5.2",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
@@ -92,7 +93,8 @@
     "react-dom": "^17.0.2",
     "sass": "^1.70.0",
     "single-spa": "^5.9.3",
-    "single-spa-react": "^4.3.1"
+    "single-spa-react": "^4.3.1",
+    "zustand": "^4.5.0"
   },
   "types": "dist/santander-mfe-app.d.ts",
   "version": "1.0.0",

@@ -48,6 +48,7 @@
       { "js": "never", "ts": "never", "tsx": "never", "json": "never" }
     ],
     "import/no-relative-packages": "error",
+    "import/prefer-default-export": "off",
     // for typescript
     "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/explicit-module-boundary-types": "error",
