@@ -6,10 +6,10 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "outDir": "dist",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
       "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
+      "@components/*": ["src/components/*"],
       "@hooks/*": ["hooks/*"],
       "@models/*": ["models/*"],
       "@modules/*": ["modules/*"],
