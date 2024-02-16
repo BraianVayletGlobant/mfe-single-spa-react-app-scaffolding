@@ -97,10 +97,5 @@
   "types": "dist/santander-mfe-app.d.ts",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  }
+  "license": "MIT"
 }
