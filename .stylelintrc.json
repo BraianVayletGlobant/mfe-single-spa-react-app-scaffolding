@@ -11,7 +11,6 @@
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "scss/selector-no-redundant-nesting-selector": true,
-    "order/properties-alphabetical-order": true,
     "selector-class-pattern": "^[a-zA-Z0-9_-]*$",
     "selector-pseudo-class-no-unknown": [
       true,
